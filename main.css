@@ -1,0 +1,42 @@
+
+.normalText {
+    font-style: normal;
+    background: linear-gradient(to bottom left, #ffffff00, #d3e0cb);
+}
+.strikedText {
+    text-decoration: line-through;
+    font-style: italic;
+    color: rgb(78, 78, 78);
+    background: linear-gradient(to bottom left, #ffffff00, #e0cbcc);
+}
+
+div {
+    border-radius: 4px;
+}
+
+div:hover {
+    background-color: gainsboro;
+    font-weight: bold;
+    background-color: rgba(128, 128, 128, 0.227);
+    border-radius: 4px;
+}
+
+li {
+    display:flex;
+    margin: 2%;
+}
+span {
+    display: block;
+    margin-left: 1%;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.227);
+    border-radius: 4px;
+
+}
+
+span:hover {
+    font-weight:bolder;
+    background-color: rgba(252, 41, 41, 0.258);
+}
